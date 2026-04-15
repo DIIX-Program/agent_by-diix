@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for SequentialStrategy\n * Module: engine/execution-strategy/sequential.strategy.js\n */\nexport class SequentialStrategy {\n  constructor() {\n    console.log('[SequentialStrategy] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

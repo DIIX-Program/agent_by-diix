@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for TokenAnalyzer\n * Module: analyzer/token.analyzer.js\n */\nexport class TokenAnalyzer {\n  constructor() {\n    console.log('[TokenAnalyzer] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

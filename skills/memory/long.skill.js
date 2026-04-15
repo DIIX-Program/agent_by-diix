@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for LongSkill\n * Module: skills/memory/long.skill.js\n */\nimport { BaseSkill } from '../core/base.skill.js';\n\nexport class LongSkill extends BaseSkill {\n  async execute(context) {\n    console.log('[LongSkill] Executing module logic...');\n    return { success: true, timestamp: Date.now() };\n  }\n}\n

@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for ReaderSkill\n * Module: skills/task/reader.skill.js\n */\nimport { BaseSkill } from '../core/base.skill.js';\n\nexport class ReaderSkill extends BaseSkill {\n  async execute(context) {\n    console.log('[ReaderSkill] Executing module logic...');\n    return { success: true, timestamp: Date.now() };\n  }\n}\n

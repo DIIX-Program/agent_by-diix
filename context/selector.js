@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Selector\n * Module: context/selector.js\n */\nexport class Selector {\n  constructor() {\n    console.log('[Selector] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

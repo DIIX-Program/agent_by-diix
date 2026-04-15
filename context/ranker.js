@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Ranker\n * Module: context/ranker.js\n */\nexport class Ranker {\n  constructor() {\n    console.log('[Ranker] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

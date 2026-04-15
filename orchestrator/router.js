@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Router\n * Module: orchestrator/router.js\n */\nexport class Router {\n  constructor() {\n    console.log('[Router] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

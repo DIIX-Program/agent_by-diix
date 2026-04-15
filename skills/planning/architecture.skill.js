@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for ArchitectureSkill\n * Module: skills/planning/architecture.skill.js\n */\nimport { BaseSkill } from '../core/base.skill.js';\n\nexport class ArchitectureSkill extends BaseSkill {\n  async execute(context) {\n    console.log('[ArchitectureSkill] Executing module logic...');\n    return { success: true, timestamp: Date.now() };\n  }\n}\n

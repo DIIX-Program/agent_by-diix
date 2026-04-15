@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for ContextPruner\n * Module: optimizer/context.pruner.js\n */\nexport class ContextPruner {\n  constructor() {\n    console.log('[ContextPruner] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

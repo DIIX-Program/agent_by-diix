@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for TokenOptimizer\n * Module: optimizer/token.optimizer.js\n */\nexport class TokenOptimizer {\n  constructor() {\n    console.log('[TokenOptimizer] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

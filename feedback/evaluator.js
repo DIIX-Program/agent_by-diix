@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Evaluator\n * Module: feedback/evaluator.js\n */\nexport class Evaluator {\n  constructor() {\n    console.log('[Evaluator] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

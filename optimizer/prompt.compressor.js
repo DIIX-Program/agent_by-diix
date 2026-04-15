@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for PromptCompressor\n * Module: optimizer/prompt.compressor.js\n */\nexport class PromptCompressor {\n  constructor() {\n    console.log('[PromptCompressor] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

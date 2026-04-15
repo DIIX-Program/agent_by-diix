@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for ModelRouter\n * Module: engine/brain/model.router.js\n */\nexport class ModelRouter {\n  constructor() {\n    console.log('[ModelRouter] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for ParallelStrategy\n * Module: engine/execution-strategy/parallel.strategy.js\n */\nexport class ParallelStrategy {\n  constructor() {\n    console.log('[ParallelStrategy] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

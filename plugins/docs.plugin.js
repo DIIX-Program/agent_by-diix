@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for DocsPlugin\n * Module: plugins/docs.plugin.js\n */\nexport class DocsPlugin {\n  constructor() {\n    console.log('[DocsPlugin] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

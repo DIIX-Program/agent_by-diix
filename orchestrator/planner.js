@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Planner\n * Module: orchestrator/planner.js\n */\nexport class Planner {\n  constructor() {\n    console.log('[Planner] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

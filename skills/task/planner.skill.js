@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for PlannerSkill\n * Module: skills/task/planner.skill.js\n */\nimport { BaseSkill } from '../core/base.skill.js';\n\nexport class PlannerSkill extends BaseSkill {\n  async execute(context) {\n    console.log('[PlannerSkill] Executing module logic...');\n    return { success: true, timestamp: Date.now() };\n  }\n}\n

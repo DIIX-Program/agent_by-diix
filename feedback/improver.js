@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Improver\n * Module: feedback/improver.js\n */\nexport class Improver {\n  constructor() {\n    console.log('[Improver] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

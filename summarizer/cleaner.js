@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Cleaner\n * Module: summarizer/cleaner.js\n */\nexport class Cleaner {\n  constructor() {\n    console.log('[Cleaner] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

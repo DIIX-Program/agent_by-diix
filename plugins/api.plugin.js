@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for ApiPlugin\n * Module: plugins/api.plugin.js\n */\nexport class ApiPlugin {\n  constructor() {\n    console.log('[ApiPlugin] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

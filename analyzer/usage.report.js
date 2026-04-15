@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for UsageReport\n * Module: analyzer/usage.report.js\n */\nexport class UsageReport {\n  constructor() {\n    console.log('[UsageReport] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

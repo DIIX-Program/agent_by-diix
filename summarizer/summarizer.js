@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Summarizer\n * Module: summarizer/summarizer.js\n */\nexport class Summarizer {\n  constructor() {\n    console.log('[Summarizer] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Workflow\n * Module: orchestrator/workflow.js\n */\nexport class Workflow {\n  constructor() {\n    console.log('[Workflow] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

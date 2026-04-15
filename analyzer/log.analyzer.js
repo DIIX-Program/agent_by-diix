@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for LogAnalyzer\n * Module: analyzer/log.analyzer.js\n */\nexport class LogAnalyzer {\n  constructor() {\n    console.log('[LogAnalyzer] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for CustomPlugin\n * Module: user-space/plugins/custom.plugin.js\n */\nexport class CustomPlugin {\n  constructor() {\n    console.log('[CustomPlugin] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

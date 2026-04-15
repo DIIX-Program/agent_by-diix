@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Llm\n * Module: brain/llm.js\n */\nexport class Llm {\n  constructor() {\n    console.log('[Llm] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

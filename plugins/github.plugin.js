@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for GithubPlugin\n * Module: plugins/github.plugin.js\n */\nexport class GithubPlugin {\n  constructor() {\n    console.log('[GithubPlugin] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

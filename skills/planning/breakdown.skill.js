@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for BreakdownSkill\n * Module: skills/planning/breakdown.skill.js\n */\nimport { BaseSkill } from '../core/base.skill.js';\n\nexport class BreakdownSkill extends BaseSkill {\n  async execute(context) {\n    console.log('[BreakdownSkill] Executing module logic...');\n    return { success: true, timestamp: Date.now() };\n  }\n}\n

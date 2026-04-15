@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Dependency\n * Module: execution/dependency.js\n */\nexport class Dependency {\n  constructor() {\n    console.log('[Dependency] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

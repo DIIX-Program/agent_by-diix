@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for SystemPrompt\n * Module: brain/systemPrompt.js\n */\nexport class SystemPrompt {\n  constructor() {\n    console.log('[SystemPrompt] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

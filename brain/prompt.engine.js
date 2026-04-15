@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for PromptEngine\n * Module: brain/prompt.engine.js\n */\nexport class PromptEngine {\n  constructor() {\n    console.log('[PromptEngine] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

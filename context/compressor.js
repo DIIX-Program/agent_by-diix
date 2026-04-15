@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Compressor\n * Module: context/compressor.js\n */\nexport class Compressor {\n  constructor() {\n    console.log('[Compressor] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n

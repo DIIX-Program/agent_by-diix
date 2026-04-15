@@ -1,0 +1,1 @@
+/**\n * Auto-generated module for Extractor\n * Module: summarizer/extractor.js\n */\nexport class Extractor {\n  constructor() {\n    console.log('[Extractor] Module mounted.');\n  }\n  async process(data) {\n    return { processed: true, data };\n  }\n}\n
